@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/video_youtube_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.bluestone.embededyoutubeplayer.PlayerView
+        android:id="@+id/youtube_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frame_video_netowork_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="712dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/video_youtube_video"
+        app:layout_constraintStart_toStartOf="@+id/video_youtube_video"
+        app:layout_constraintTop_toTopOf="@+id/video_youtube_video">
+
+        <TextView
+            android:id="@+id/txt_video_network_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NETWORK AVAILABILITY"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/txt_error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:foregroundGravity="center"
+        android:gravity="start"
+        android:paddingStart="5sp"
+        android:text="Error Text"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_wrapBehaviorInParent="horizontal_only" />
+
+    <TextView
+        android:id="@+id/txt_lable_error_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:gravity="start"
+        android:text="Code"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_lable_date" />
+
+    <TextView
+        android:id="@+id/txt_lable_error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="Error"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_error_text"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/txt_error_text" />
+
+    <TextView
+        android:id="@+id/txt_error_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="234dp"
+        android:gravity="start"
+        android:text="Error Date"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_lable_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:paddingStart="5sp"
+        android:text="Timestamp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/txt_error_date" />
+
+    <TextView
+        android:id="@+id/txt_error_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Error Code"
+        android:visibility="visible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_lable_error_code"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="25dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="160dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

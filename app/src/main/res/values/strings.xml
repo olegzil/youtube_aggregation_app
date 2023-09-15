@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">ScencExplorer</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">Selection Screen</string>
+    <string name="second_fragment_label">Video Screen</string>
+    <string name="error_connection_lost">Internet Connection Lost</string>
+    <string name="error_server_down">Server Down</string>
+    <string name="success_connection_available">Internet Connection Available</string>
+    <string name="error_device_offline">Device offline</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="landscape_fullscreen">Always fullscreen in landscape</string>
+    <string name="selection_screen_title">Selection Screen </string>
+    <string name="channel_unavailable">This channel %s is unavailable</string>
+    <string name="menu_fragment_title">Your Youtube Channels</string>
+    <string name="random_link_fragment_title">Your Youtube Videos</string>
+    <string name="error_server_connection">Unable to connect to server. Exit the app and try again later.</string>
+    <string name="help_ok">ok</string>
+    <string name="help_cancel">cancel</string>
+    <string name="link_message_new">You are attempting to add %s video. Touch OK to proceed. The video will appear in your channel list within 24 hours. Touch CANCEL to terminate this request.</string>
+    <string name="link_message_duplicate">The video %s is already available in your channel list</string>
+    <string name="link_message_new_link">You have already added the channel that contains this link. Please wait 24 hours before the channel is available in the app." </string>
+    <string name="link_message_no_exist">New link added</string>
+    <string name="link_message_approved">New link approved</string>
+    <string name="link_message_denied">Video unavailable</string>
+    <string name="link_message_in_progress">New channel containing this video has been previously added. Please wait 24 hours before the link is available in the app. For now the video is available in your \"Video collection list\</string>
+    <string name="link_message_invalid">The video link you provided is not a valid format. </string>
+    <string name="server_response_ok"> success </string>
+    <string name="server_error_client_id_is_invalid">"client id: %s is invalid"</string>
+    <string name="server_error_missing_action_token">missing action token</string>
+    <string name="server_error_missing_parameter">missing parameter</string>
+    <string name="server_error_malformed_command">malformed command</string>
+    <string name="server_error_invalid_command">invalid command</string>
+    <string name="server_error_database_error">database error</string>
+    <string name="server_error_not_found">not found</string>
+    <string name="server_error_authentication_error">authentication error</string>
+    <string name="server_error_invalid_action">invalid action</string>
+    <string name="server_error_missing_channel">missing channel</string>
+    <string name="server_error_missing_client">missing client</string>
+    <string name="server_error_invalid_client_id">invalid client id</string>
+    <string name="server_error_missing_video">missing video</string>
+    <string name="server_error_invalid_link">invalid link</string>
+    <string name="server_error_link_exists">link exists</string>
+    <string name="server_error_link_pending">New channel containing this video has been previously added. Please wait 24 hours before the link is available in the app. For now the video is available in your \"Video collection list\"</string>
+    <string name="server_error_link_added">link: %s added</string>
+    <string name="server_error_unable_to_add_link">unable to add link</string>
+    <string name="server_error_record_not_found">record not found</string>
+    <string name="server_error_invalid_admin_key">invalid admin key</string>
+    <string name="server_error_no_action_specified">no action specified</string>
+    <string name="server_error_invalid_action_type">invalid action type</string>
+    <string name="server_error_no_such_client">no such client</string>
+    <string name="server_error_invalid_parameter">invalid parameter</string>
+    <string name="server_error_not_implemented">not implemented</string>
+    <string name="server_error_no_such_channel">no such channel</string>
+    <string name="server_error_no_such_command">no such command</string>
+    <string name="server_error_duplicate_channel">duplicate channel</string>
+    <string name="server_error_unknown">unknown</string>
+    <string name="menu_name_restore_deleted_channels">"Restore Deleted Channels"</string>
+    <string name="menu_name_help">Help</string>
+    <string name="menu_name_your_collection">Your video collection</string>
+    <string name="main_screen_help">This is a list of channels that contain videos for astronomy, physics, math and biology videos. Things you can do here:
+Click on an icon to see all of the channels available.
+Pull down on the screen to refresh all channels with the latest content.
+Hold down an icon and drag to delete the channel (you will be able to restore it from the menu).
+Video content is updated each night. Some creators publish videos more than once per twenty four hour period. If you don’t see the latest videos, pull down on the screen to refresh.
+</string>
+</resources>

@@ -1,0 +1,198 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "5:4663181812893800317",
+      "lastPropertyId": "5:5710270795567174696",
+      "name": "ChannelMetadataEntity",
+      "properties": [
+        {
+          "id": "1:3893908756938295725",
+          "name": "dbId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8293947972703194944",
+          "name": "lastUpdateTime",
+          "type": 6
+        },
+        {
+          "id": "3:4751803465240655063",
+          "name": "channelID",
+          "type": 9
+        },
+        {
+          "id": "4:8785351284086413492",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "5:5710270795567174696",
+          "name": "channelItemCount",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:1314293984209698176",
+      "lastPropertyId": "5:759608185386082707",
+      "name": "YoutubeVideoRequestEntity",
+      "properties": [
+        {
+          "id": "4:2897953574091859949",
+          "name": "clientID",
+          "type": 9
+        },
+        {
+          "id": "5:759608185386082707",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "8:4021182845040368511",
+      "lastPropertyId": "4:4962799542767205564",
+      "name": "ApplicationControlEntity",
+      "properties": [
+        {
+          "id": "1:7358105423428209103",
+          "name": "dbId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6673458545298484983",
+          "name": "defaultClientID",
+          "type": 9
+        },
+        {
+          "id": "3:8774207666439422324",
+          "name": "uniqueClientID",
+          "type": 9
+        },
+        {
+          "id": "4:4962799542767205564",
+          "name": "appVersion",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "9:500694456867077497",
+      "lastPropertyId": "4:6923240310420353635",
+      "name": "VideoLinkDescriptorEntity",
+      "properties": [
+        {
+          "id": "1:3890115248663800167",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7196709900788269516",
+          "name": "link",
+          "type": 9
+        },
+        {
+          "id": "3:1207924068908292121",
+          "name": "status",
+          "type": 9
+        },
+        {
+          "id": "4:6923240310420353635",
+          "name": "videoLinkId",
+          "indexId": "6:1538947910821339386",
+          "type": 11,
+          "flags": 520,
+          "relationTarget": "YoutubeVideoRequestEntity"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "10:3276472963258819397",
+      "lastPropertyId": "3:4693167693215790763",
+      "name": "SharedLinkEntity",
+      "properties": [
+        {
+          "id": "1:6015927337726809374",
+          "name": "dbId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2314832604512777770",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:4693167693215790763",
+          "name": "url",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "10:3276472963258819397",
+  "lastIndexId": "6:1538947910821339386",
+  "lastRelationId": "1:2534464656210839962",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    5468107424082761131,
+    3600176638262807941,
+    6177023895735885700,
+    4694748961193991897,
+    6539138076475843701
+  ],
+  "retiredIndexUids": [
+    4669267990177790923,
+    5725619027819722878,
+    6361777943001303809,
+    4071990647668981378,
+    3325572530227884065
+  ],
+  "retiredPropertyUids": [
+    6597510820963745606,
+    4113796976819512299,
+    7420316563276821356,
+    3545387405092691442,
+    1968980921258297960,
+    959505235763158065,
+    3646308152399721203,
+    9202621044880021421,
+    6666260161800777961,
+    6310227920291016912,
+    8264019184553182593,
+    3955182621039148803,
+    8347902383160730894,
+    3639013793976391712,
+    3366043377692066006,
+    6804677255911498022,
+    2467666375887163488,
+    5844357219969497024,
+    2170457607834831205,
+    1096612110926801504,
+    8143111009573396850,
+    7834947782623771806,
+    190669389845659690,
+    6585847517401799080,
+    6074670624447185059,
+    8391804824971622300,
+    7273867075188475663
+  ],
+  "retiredRelationUids": [
+    2534464656210839962
+  ],
+  "version": 1
+}
